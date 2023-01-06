@@ -1,0 +1,75 @@
+<!-- Tip dokumenta, programski jezik -->
+<!DOCTYPE html>
+
+<!-- Jezik -->
+<html lang="eng">
+
+<html>
+
+    <head>
+
+        <!-- Za mobilne ekrane -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <!-- Za zumiranje na mobitelu -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- Da podržava posebne znakove -->
+        <meta charset="UTF-8">
+
+        <!-- Ikona stranice -->
+        <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">
+
+        <!-- Povezivanje s CSS-om -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Naslov -->
+        <title>Kiwi-photo_gallery</title>
+
+    </head>
+
+    <body>
+
+        <!-- Navigacija stranice -->
+        <nav class="navigacija">
+            <a class="navigacija" href="index.html">Home Page</a>
+            <a class="navigacija" href="info.html">User Info</a>
+        </nav>
+
+        <!-- Tražilica -->
+        <div id="searchbar">
+            <input type="search" name="fname" placeholder="Try searching something.">
+            <input type="button" value="Search" onclick="Hooorayyy">     
+        </div>
+
+        <!-- Naslov stranice -->
+        <h1 id="naslov">Photo Gallery</h1>
+
+        <!--Slike u galeriji -->
+        <div class="slike">
+        <img src="img/french1.jpg" alt="french1" width="600" height="300">
+        </div>
+        <div class="slike">
+        <img src="img/french2.jpg" alt="french2" width="300" height="200">
+        <img src="img/french3.jpg" alt="french3" width="300" height="200">
+        </div>
+
+        <!-- Podnaslov -->
+        <div class="galerija">
+            <h3 class="podnaslov">SOOOOO CUUUUUTEEEEE !!!!!</h3>
+            <h5 class="opis">Please submit cute photos of your frenchies.</h5>
+
+            <!-- Submit area -->
+
+            <div id="relative">
+                <textarea input type="text" rows="20" cols="100" name="fname" placeholder="Drag your photos here or press upload to post."></textarea>
+                <div id="absolute">
+                    <input type="submit" value="Upload">
+                </div>
+            </div>
+            <input type="submit" value="Submit">    
+        </div>
+        
+    </body>
+
+ </html>

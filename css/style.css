@@ -1,0 +1,143 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Monoton&family=Nabla&family=Sevillana&display=swap');
+
+/* Za ekrane svih uređaja */
+@media all{
+
+/* Pozadina */
+body{
+    background-image: url("../img/background2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding: 0px;
+}
+
+/* Tekst */
+h1, h2, h3{
+    font-family: "Sevillana";
+    text-align: leftS;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1,5;
+    display: flex;
+    font-size: 48px;
+    color: brown;
+}
+
+h4, h5, h6{
+    font-family: "Sevillana";
+    text-align: left;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1,5;
+    display: flex;
+    font-size: 24px;
+}
+
+.select, .radio, .placeholder, .submit, .form{
+    font-family: "Caveat";
+    text-align: left;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1,5;
+    font-size: 24px;
+}
+
+/* Tablice, Okvir */
+table{
+    font-family: "Caeveat";
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1,5;
+    font-size: larger;
+    border: 3px solid blue;
+    background: grey;
+    padding-left: 10px;
+    margin: auto;
+}
+
+summary{
+    font-family: "Caeveat";
+    color: blue;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1,5;
+    font-size: larger;
+    width: 400px;
+    margin: auto;
+}
+
+/* Zasebno editanje stavki */
+#naslov{
+    background-image: url("../img/upper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Monoton";
+    color: rgb(190, 190, 5);
+    text-align: center;
+    font-size: 72px;
+    display: block;
+}
+
+#searchbar{
+    text-align: right;
+    padding: 10px;
+}
+
+nav.navigacija{
+    display: block;
+    position: sticky;
+    justify-content: flex-start;
+    text-align: right;
+    right: 20px;
+    top: 20px;
+    z-index: 10;
+    font-family: "Sevillana";
+    text-decoration: none;
+    color:blue;
+    font-size: 36px;
+    background: rgba(250, 250, 220, .8);
+    z-index: 10;
+    text-shadow: 10px 10px 20px grey;
+}
+
+.navigacija:link{
+    color: #000000;
+}
+.navigacija:visited{
+    color: blue;
+}
+.navigacija:hover{
+    color: rgba(0, 0, 0, .5);
+}
+.navigacija:active{
+    color: #555;
+}
+
+/* Upload area */
+#relative{
+    position: relative;
+}
+
+#absolute{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+/* Upload photo area */
+.galerija{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+}
