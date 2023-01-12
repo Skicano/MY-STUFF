@@ -8,6 +8,9 @@
 
     <head>
 
+        <!-- Naslov -->
+        <title>Kiwi-home_page</title>
+
         <!-- Meta tagovi -->
         <meta name="author" content="Šime Nimac">
         <meta name="description" content="Pictures of French Bulldogs">
@@ -28,10 +31,13 @@
 
         <!-- Povezivanje s CSS-om -->
         <link rel="stylesheet" href="css/style.css">
-        
-        <!-- Naslov -->
-        <title>Kiwi-home_page</title>
 
+        <!-- Omogućije jQuerry -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Povezivanje s JS-om -->
+        <script src="js/scripts.js"></script>
+        
     </head>
 
     <body>
@@ -52,6 +58,32 @@
         <header class="zaglavlje-naslov">
             <h1 id="naslov">FRENCHIE!!!</h1>
         </header>
+
+        <!-- Tabovi -->
+        <div class="tabs">
+            <div class="w3-container">
+                <h3>Why Frenchies?</h3>
+                </div>
+            
+                <button class="w3-bar-item w3-button" onclick="openCity('Cute')">Reason One</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Funny')">Reason Two</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Smart')">Reason Three</button>
+            
+            <div id="Cute" class="w3-container city">
+                <h4 class="collapse-control">Cute !!! --> click me <--</h4>
+                <h6 div class="collapse-box">Just open our photo gallery.</h6>
+            </div>
+            
+            <div id="Funny" class="w3-container city" style="display:none">
+                <h4 class="collapse-control">Funny !!! --> click me <--</h4>
+                <h6 div class="collapse-box">Very clumsy and adventurous.</h6> 
+            </div>
+            
+            <div id="Smart" class="w3-container city" style="display:none">
+                <h4 class="collapse-control">Smart !!! --> click me <--</h4>
+                <h6 div class="collapse-box">Very fast little learners.</h6>
+            </div>
+        </div>
 
         <!-- Glavni sadrzaj -->
         <section class="glavni">
