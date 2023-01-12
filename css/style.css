@@ -140,4 +140,24 @@ nav.navigacija{
     margin: auto;
 }
 
+/* Dio s tabovima */
+.tabs{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1,5;
+    font-size: larger;
+    border: 3px solid blue;
+    border-radius: 50px;
+    background: grey;
+    padding-left: 10px;
+    margin: auto;
+    position: relative;
+    display: block;
+}
+
+.collapse-control{
+    text-decoration: underline;
+    color: blue;
+}
+
 }
